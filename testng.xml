@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="E:/Hari/Java_Advanced_Workspace_intellij/Selenium_Fresh_Basics/src/test/java/org/ActionClass.java">
+        <classes>
+            <class name="org.ActionClass">
+                <methods>
+                    <include name="moveToElement"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="E:/Hari/Java_Advanced_Workspace_intellij/Selenium_Fresh_Basics/src/test/java/org/Adblock.java">
+        <classes>
+            <class name="org.Adblock">
+                <methods>
+                    <include name="addExtension"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="E:/Hari/Java_Advanced_Workspace_intellij/Selenium_Fresh_Basics/src/test/java/org/Alerts.java">
+        <classes>
+            <class name="org.Alerts">
+                <methods>
+                    <include name="alerts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="E:/Hari/Java_Advanced_Workspace_intellij/Selenium_Fresh_Basics/src/test/java/org/Checkbox.java">
+        <classes>
+            <class name="org.Checkbox">
+                <methods>
+                    <include name="checkBox"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
